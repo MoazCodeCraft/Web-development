@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Login</title>
+</head>
+<body >
+    <?php
+    include("log.php")
+    ?>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="log.php">
+            <label for="username" style="font-weight: bold;">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <label for="password"  style="font-weight: bold;">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+<p> Donot have account
+    <a href="signup.html" style="color: black;font-weight: bold;">Sign up </a>
+</p>
+         <a href="airline5.php">  <button type="submit" 
+             style="font-weight: bold;">Login</button>
+            </a> 
+        </form>
+    </div>
+
+</body>
+</html>
